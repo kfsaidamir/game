@@ -165,7 +165,10 @@ a {
   .box {
     flex-direction: column;
     width: 200px;
+  }
 
+  .box > p {
+    font-size: 12px;
   }
 }
 
