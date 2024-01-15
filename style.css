@@ -163,8 +163,12 @@ a {
   }
 
   .box {
-    flex-direction: column;
     width: 200px;
+  }
+
+  .main {
+    flex-direction: column;
+
   }
 
   .box > p {
