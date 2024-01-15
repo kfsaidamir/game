@@ -155,19 +155,15 @@ a {
 @media (max-width:512px) {
 
   section {
-    background-position: center;
-    background-repeat: no-repeat;
-
     width: 100%;
-    height: 100%;
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .box {
-    display: flex;
+    flex-direction: column;
     width: 200px;
 
   }
