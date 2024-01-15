@@ -167,7 +167,7 @@ a {
   }
 
   .main {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .box > p {
