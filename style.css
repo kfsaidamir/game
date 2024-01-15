@@ -153,12 +153,29 @@ a {
 }
 
 @media (max-width:512px) {
+
+  section {
+    width: 30%;
+    height: 100svh;
+  }
+
   h1 {
     font-size: 30px;
   }
 
   .box {
+    display: flex;
     width: 200px;
 
   }
+}
+
+@media (hover:hover) {
+  .box:hover {
+    transform: scale(0.9);
+}
+
+h1:hover {
+    color: rgb(118, 118, 118);
+}
 }
