@@ -155,11 +155,11 @@ a {
 @media (max-width:512px) {
 
   section {
-    width: 100%;
+    width: 1000%;
   }
 
   h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .box {
